@@ -15,12 +15,13 @@ a {
   font-weight: 500;
   text-decoration: none;
   color: #213547;
-
+  transition: color 2s;
 }
 
 
-.a:hover{
-  color: red;
+a:hover{
+  color: rgb(255, 200, 0);
+  
 }
 
 html, body {
