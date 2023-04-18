@@ -17,16 +17,17 @@ export default function TabChap({ chapNbr, chapTtl, chapDscr }: Props) {
   
   return (
    
-    <div>
+    <div className="tabChap" >
       <ul>
         <li>
           <h2>Chapitre {chapNbr}</h2> 
           {forOpen ?
-          <button onClick={() => setForOpen(false)}>Fermer</button> : null}
+          <button onClick={() => setForOpen(false)}>Fermer</button> : 
+          <button onClick={() => setForOpen(true)}>Ouvrir</button> }
         </li>
         <li>
           {forOpen ?
-          <div className="tabChap" >
+          <div>
           <div>
             <h3>{chapTtl}</h3>
           </div>
@@ -35,7 +36,7 @@ export default function TabChap({ chapNbr, chapTtl, chapDscr }: Props) {
           
         </li>
       </ul>
-      <button onClick={() => setForOpen(true)}>Ouvrir</button>
+      
     </div>
   ) 
 }
