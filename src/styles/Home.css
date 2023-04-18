@@ -1,0 +1,34 @@
+.container{
+    background-image: url(../assets/one-piece.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   color: black;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.604);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center; 
+    align-items:center;
+    flex-direction: column;
+}
+
+.box p{
+    font-size: 45px;
+}
+
+.goto{
+    background-color: #ffffff65;
+    width: 75%;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: xx-large;
+    box-shadow: 10px 10px 15px black;
+}

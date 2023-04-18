@@ -1,0 +1,35 @@
+li{
+    list-style-type: none;
+}
+
+.infoTome{
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(../assets/logo-ico.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position:  108% -70%;
+    text-align: justify;
+}
+
+.infotome:hover{
+    background-color: red;
+}
+
+.infoTome H1{
+    margin: 0 0 30px 10px;
+}
+
+.infoTome ul{
+    padding: 0;
+}
+
+.infoTome{
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+.linkto{
+    text-align: center;
+}
